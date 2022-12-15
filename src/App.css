@@ -1,0 +1,29 @@
+body {
+  background-color:#6a5acd;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.icons {
+  font-size: 40px;
+  color: black;
+}
+
+.card{
+  background-color: white;
+  border:2px solid black;
+  border-radius: 10px;
+}
